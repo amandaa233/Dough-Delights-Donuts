@@ -348,3 +348,64 @@ h1 {
     gap: 36px;
     padding: 0 250px;
 }
+
+.corpo-final{
+    background-color: var(--rosa);
+}
+
+footer {
+    background-color: var(--roxo-medio);
+    color: var(--branco);
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+}
+
+footer h5 {
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+footer li {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0;
+    transition: opacity 0.6s ease;
+    cursor: pointer;
+}
+
+footer li:hover {
+    opacity: 60%;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    
+}
+
+.icons a ion-icon{
+    color: var(--branco);
+}
+
+.marca img{
+    width: 150px;
+
+}
