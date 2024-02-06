@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
 
+:root {
+    --rosa: rgb(226, 115, 150);
+    --branco: rgb(255, 255, 255);
+    --bege: rgb(234, 242, 215);
+    --preto: rgb(0, 0, 0);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -35,13 +42,13 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: var(--preto);
 }
 
 .botao-secundario{
-    color:  rgb(255, 255, 255);
+    color: var(--branco);
 
-    background-color: rgb(226, 115, 150);
+    background-color: var(--rosa);
     border-radius: 5px;
 
 }
@@ -52,7 +59,7 @@ a{
     align-items: center;
     padding: 0px 0px 0px 50px ;
 
-    background-color: rgb(234, 242, 215);
+    background-color: var(--bege);
 }
 
 .esquerda{
@@ -72,8 +79,8 @@ h1{
 }
 
 .botao-primario{
-    background-color: rgb(226, 115, 150);
-    color: white;
+    background-color: var(--rosa);
+    color: var(--branco);
     font-size: 27px;
     border-radius: 8px;
     text-align: center;
@@ -88,9 +95,50 @@ p , h1 {
     width: 800px;
 }
 
+.corpo_2{
+    background-color: var(--bege);
+}
 
+.meio{
+    display: flex;
+    align-items: center;
+}
 
+.meio .subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
 
+.produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+
+.produtos .produto-item{
+    flex: 1;
+    height: 700px;
+
+}
+
+.produtos .produto-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.botao-compra{
+    background-color: var(--branco);
+    color: var(--preto);
+    font-size: 27px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+}
 
 
 
