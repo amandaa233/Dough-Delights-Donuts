@@ -50,14 +50,18 @@ a {
 
     background-color: var(--rosa);
     border-radius: 5px;
-
 }
+
+.botao-secundario:hover {
+    opacity: 70%;
+}
+
 
 .corpo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 130px;
 
     background-color: var(--bege);
 }
@@ -73,7 +77,7 @@ a {
 .corpo .esquerda{
 
     p {
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 500;
     }
     
@@ -137,7 +141,7 @@ h1 {
 }
 
 .img_topo {
-    width: 800px;
+    width: 900px;
 }
 
 .corpo_2 {
@@ -181,6 +185,10 @@ h1 {
     border-radius: 8px;
     padding: 12px 70px;
     transition: opacity 0.6s ease;
+}
+
+.botao-produto:hover {
+    opacity: 70%;
 }
 
 .produtos {
@@ -295,8 +303,23 @@ h1 {
     transition: opacity 0.6s ease;
 }
 
+.botao-beneficios:hover {
+    opacity: 70%;
+}
+
+
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
 .corpo-sobrenos{
-    background-color: var(--bege);
+    background-color: var(--branco);
 }
 
 #sobre-nos .direita{
@@ -320,12 +343,18 @@ h1 {
     transition: opacity 0.6s ease;
 }
 
+.botao-sobrenos:hover {
+    opacity: 70%;
+}
+
+
 
 #sobre-nos {
     padding: 40px 0;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
+    overflow: hidden;
 }
 
 #sobre-nos .esquerda {
@@ -336,8 +365,13 @@ h1 {
     align-items: center;
 }
 
-#sobre-nos .esquerda img {
-    width: 600px;
+#sobre-nos .esquerda {
+    width: 50%;
+}
+
+#sobre-nos .esquerda img{
+    width: 100%;
+    object-fit: cover;
 }
 
 #sobre-nos .direita {
@@ -346,7 +380,6 @@ h1 {
     align-items: start;
     width: 45%;
     gap: 36px;
-    padding: 0 250px;
 }
 
 .corpo-final{
